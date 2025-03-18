@@ -41,6 +41,8 @@ int main (){
 
     }
 
+    // Cavalo
+
     printf("\n[CAVALO]\n\n");
 
     for (cavalo1; cavalo1 <=1; cavalo1++)
