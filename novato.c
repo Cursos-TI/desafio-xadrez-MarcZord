@@ -3,7 +3,7 @@
 int main (){
 
     // Variáveis
-    
+
     int torre = 1, bispo = 1, rainha = 1;
     
     // Torre
@@ -40,5 +40,8 @@ int main (){
         printf("Esquerda\n");
 
     }
+
+    return 0;
+    
 }
 
