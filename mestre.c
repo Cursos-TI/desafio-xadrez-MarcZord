@@ -25,6 +25,8 @@ void moverrainha (int casas){
 
 int main (){
 
+    // Variáveis
+
     int cavalo1 = 1, cavalo2 = 1, cavalo3 = 3;
 
     // Torre
