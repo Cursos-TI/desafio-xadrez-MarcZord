@@ -62,5 +62,8 @@ int main (){
         cavalo1++;
         
     }
+
+    return 0;
+    
 }
 
