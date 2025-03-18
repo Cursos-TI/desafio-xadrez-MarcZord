@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Recursividade Torre
+
 void movertorre (int casas){
     if(casas > 0){
         printf("Direita\n");
@@ -7,12 +9,16 @@ void movertorre (int casas){
     }
 }
 
+// Recursividade Bispo
+
 void moverbispo (int casas){
     if(casas > 0){
         printf("Cima\nDireita\n");
         moverbispo(casas - 1);
     }
 }
+
+// Recursividade Rainha
 
 void moverrainha (int casas){
     if(casas > 0){
@@ -68,4 +74,7 @@ int main (){
 
         
     }
+
+    return 0;
+    
 }
